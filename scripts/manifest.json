@@ -5,16 +5,16 @@
   "url": "https://github.com/lencx/ChatGPT/tree/main/scripts",
   "scripts": [
     {
-      "name": "core.js",
-      "version": "0.1.0"
+      "name": "chat.js",
+      "version": "0.1.4"
     },
     {
       "name": "cmd.js",
-      "version": "0.1.0"
+      "version": "0.1.2"
     },
     {
       "name": "core.js",
-      "version": "0.1.0"
+      "version": "0.1.2"
     },
     {
       "name": "dalle2.js",
@@ -22,7 +22,7 @@
     },
     {
       "name": "export.js",
-      "version": "0.1.0"
+      "version": "0.1.5"
     },
     {
       "name": "markdown.export.js",

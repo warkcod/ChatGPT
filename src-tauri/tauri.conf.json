@@ -15,6 +15,9 @@
       "globalShortcut": {
         "all": true
       },
+      "shell": {
+        "all": true
+      },
       "fs": {
         "all": false,
         "readFile": true,
@@ -25,13 +28,17 @@
         "removeFile": true,
         "removeDir": true,
         "scope": [
-          "$HOME/.ichatgpt/**"
+          "$HOME/.ichatgpt/**",
+          "$DOWNLOAD/**"
         ]
       },
       "path": {
         "all": true
       },
       "os": {
+        "all": true
+      },
+      "dialog": {
         "all": true
       },
       "process": {
@@ -83,7 +90,43 @@
       }
     },
     "security": {
-      "csp": null
+      "csp": null,
+      "dangerousRemoteDomainIpcAccess": [
+        {
+          "windows": [
+            "core",
+            "main",
+            "tray"
+          ],
+          "domain": "chat.openai.com",
+          "enableTauriAPI": true
+        },
+        {
+          "windows": [
+            "core",
+            "main"
+          ],
+          "domain": "labs.openai.com",
+          "enableTauriAPI": true
+        },
+        {
+          "windows": [
+            "core",
+            "main",
+            "tray"
+          ],
+          "domain": "openai.com",
+          "enableTauriAPI": true
+        },
+        {
+          "windows": [
+            "chatgpt_sponsors",
+            "app_website"
+          ],
+          "domain": "app.nofwl.com",
+          "enableTauriAPI": true
+        }
+      ]
     },
     "updater": {
       "active": true,
