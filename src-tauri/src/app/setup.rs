@@ -59,7 +59,7 @@ pub fn init(app: &mut App) -> std::result::Result<(), Box<dyn std::error::Error>
       };
       info!("main_window: {}", link);
       let mut main_win = WindowBuilder::new(&app, "core", WindowUrl::App(link.into()))
-        .title("ChatGPT")
+        .title("iChatGPT")
         .resizable(true)
         .fullscreen(false)
         .inner_size(app_conf2.main_width, app_conf2.main_height)

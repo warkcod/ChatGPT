@@ -20,7 +20,7 @@ export const DISABLE_AUTO_COMPLETE = {
 };
 
 export const chatRoot = async () => {
-  return join(await homeDir(), '.chatgpt');
+  return join(await homeDir(), '.ichatgpt');
 };
 
 export const chatModelPath = async (): Promise<string> => {

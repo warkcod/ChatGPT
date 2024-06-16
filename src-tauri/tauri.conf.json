@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "ChatGPT",
-    "version": "0.12.0"
+    "productName": "iChatGPT",
+    "version": "1.1.1"
   },
   "tauri": {
     "allowlist": {
@@ -25,7 +25,7 @@
         "removeFile": true,
         "removeDir": true,
         "scope": [
-          "$HOME/.chatgpt/**"
+          "$HOME/.ichatgpt/**"
         ]
       },
       "path": {
@@ -70,7 +70,7 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "shortDescription": "ChatGPT",
+      "shortDescription": "iChatGPT",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -91,7 +91,7 @@
       "endpoints": [
         "https://lencx.github.io/ChatGPT/install.json"
       ],
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEIxMjY4OUI5MTVFNjBEMDUKUldRRkRlWVZ1WWttc1NGWEE0RFNSb0RqdnhsekRJZTkwK2hVLzhBZTZnaHExSEZ1ZEdzWkpXTHkK"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEY4MDY2RDNGNTYzRjEzNTYKUldSV0V6OVdQMjBHK0pLWnU3bW5wUVh1Mk94L2lWQThUZjBRMXVvY01MQkVBT1dCVUpYcDZzMEUK"
     }
   }
 }

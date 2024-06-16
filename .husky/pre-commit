@@ -3,4 +3,4 @@
 
 npm run pretty-quick
 cargo fmt
-git add .
+#git add .pretty-quick --staged && cargo fmt -- --check
